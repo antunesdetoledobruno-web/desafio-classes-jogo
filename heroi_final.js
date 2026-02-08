@@ -9,13 +9,13 @@ class Heroi {
     let ataque;
 
     if (this.tipo === "guerreira") {
-      ataque = "corte relâmpago";
+      ataque = "espada";
     } else if (this.tipo === "mago") {
-      ataque = "magia de fogo";
+      ataque = "magia";
     } else if (this.tipo === "monge") {
-      ataque = "golpe de artes marciais";
+      ataque = "artes marciais";
     } else if (this.tipo === "ninja") {
-      ataque = "shuriken demoníaca";
+      ataque = "shuriken";
     } else {
       ataque = "ataque desconhecido";
     }
